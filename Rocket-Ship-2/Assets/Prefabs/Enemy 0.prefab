@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 6265274174483736771}
   - component: {fileID: 8289929165780396511}
   - component: {fileID: -6715891028572684421}
-  m_Layer: 0
+  - component: {fileID: 686373247538720873}
+  - component: {fileID: 5209215510512745398}
+  m_Layer: 8
   m_Name: Enemy 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,6 +98,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 066cb570c5aae50449b082216ee08fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 50
+--- !u!114 &686373247538720873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317070049518385141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4252c8389d73f4091ef578bb5b77c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
+--- !u!114 &5209215510512745398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317070049518385141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5b8bb2a5edc5d488ffa6e885feae78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8863349730300407824, guid: 05f40e07ba873c6479b84b05776ad954, type: 3}
+  projectileSpeed: 10
+  projectileLifeTime: 5
+  baseFiringRate: 1
+  firingRateVariance: 0.5
+  minFiringRate: 0.1
+  useAI: 1
+  isFiring: 0
 --- !u!1 &5376009887861800187
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4531950693256042569}
   - component: {fileID: 8859150926397155285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: enemyRed5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,13 +156,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5376009887861800187}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7864744101511486394}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &8859150926397155285
 SpriteRenderer:
   m_ObjectHideFlags: 0
