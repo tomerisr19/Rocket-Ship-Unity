@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Kenney Space SDF
+  m_Name: Main - Kenny Space SDF
   m_EditorClassIdentifier: 
-  hashCode: 354733959
+  hashCode: 1606796548
   material: {fileID: 8782752044204979785}
-  materialHashCode: -244811833
+  materialHashCode: 20332836
   m_Version: 1.1.0
   m_SourceFontFileGUID: e24e1a5de32daec4289d5de76f0ee205
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: e24e1a5de32daec4289d5de76f0ee205, type: 3}
@@ -2316,7 +2316,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Kenney Space SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: GLOW_ON UNDERLAY_ON
+  m_ShaderKeywords: UNDERLAY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
