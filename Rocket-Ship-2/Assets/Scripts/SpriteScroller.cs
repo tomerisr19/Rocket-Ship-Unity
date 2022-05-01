@@ -21,6 +21,5 @@ public class SpriteScroller : MonoBehaviour
     {
         offset = moveSpeed * Time.deltaTime;
         material.mainTextureOffset += offset;
-
     }
 }
