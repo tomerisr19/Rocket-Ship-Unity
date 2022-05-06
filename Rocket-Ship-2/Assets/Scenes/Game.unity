@@ -411,6 +411,12 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: d1e6ee9f2c0253c41961627a0e148b97, type: 2}
   - {fileID: 11400000, guid: 8611769f7935cfc47bf4021b9ec9f65a, type: 2}
+  - {fileID: 11400000, guid: c41be6693afa7b3458522c26e729e8b7, type: 2}
+  - {fileID: 11400000, guid: 769461fcf3716ec4cad51a7cacf74bf2, type: 2}
+  - {fileID: 11400000, guid: 5d5b14ed49403a743af127d461753a0d, type: 2}
+  - {fileID: 11400000, guid: 6cf35adcc76c2744284e7d5d36db3de9, type: 2}
+  - {fileID: 11400000, guid: a9a4797e84ae29348a165cc9f3a07271, type: 2}
+  - {fileID: 11400000, guid: 6f5b8db1ccd08ce4590ba8700e59aa25, type: 2}
   timeBetweenWaves: 0
   isLooping: 1
 --- !u!4 &1005429162
@@ -1193,6 +1199,10 @@ PrefabInstance:
     - target: {fileID: 747420084488052834, guid: 896c1f1b90640574492633294ed36ed7, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874271445595740460, guid: 896c1f1b90640574492633294ed36ed7, type: 3}
+      propertyPath: paddingTop
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6195221637269197009, guid: 896c1f1b90640574492633294ed36ed7, type: 3}
       propertyPath: m_RootOrder
